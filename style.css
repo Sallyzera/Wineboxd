@@ -18,7 +18,7 @@ header {
 }
 
 main {
-    background-color: blue;
+    background-color: cyan;
     flex: 1;
     width: 100%;
     padding: 50px;
