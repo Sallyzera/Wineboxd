@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: green;
+    height: 15vh;
+    width: 100%;
+}
+
+main {
+    background-color: blue;
+    flex: 1;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#teste1 {
+    background-color: red;
+    height: 250px;
+    width: 150px;
+}
+
+#teste2 {
+    background-color: yellow;
+    height: 250px;
+    width: 150px;
+}
